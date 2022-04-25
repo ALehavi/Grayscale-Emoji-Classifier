@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="card elevation">
+      <canvas
+        class="canvas elevation"
+        id="canvas"
+        width="440"
+        height="480"
+      ></canvas>
+
+      <div class="button" id="clear-button">CLEAR</div>
+
+      <div class="predictions">
+        <div class="prediction-col" id="prediction-0">
+          <div class="prediction-bar-container">
+            <div class="prediction-bar"></div>
+          </div>
+          <div class="prediction-number">&#128578;</div>
+        </div>
+
+        <div class="prediction-col" id="prediction-1">
+          <div class="prediction-bar-container">
+            <div class="prediction-bar"></div>
+          </div>
+          <div class="prediction-number">&#128170;</div>
+        </div>
+
+        <div class="prediction-col" id="prediction-2">
+          <div class="prediction-bar-container">
+            <div class="prediction-bar"></div>
+          </div>
+          <div class="prediction-number">&#128123;</div>
+        </div>
+
+        <div class="prediction-col" id="prediction-3">
+          <div class="prediction-bar-container">
+            <div class="prediction-bar"></div>
+          </div>
+          <div class="prediction-number">&#128151;</div>
+        </div>
+
+        <div class="prediction-col" id="prediction-4">
+          <div class="prediction-bar-container">
+            <div class="prediction-bar"></div>
+          </div>
+          <div class="prediction-number">&#128077;</div>
+        </div>
+
+        <div class="prediction-col" id="prediction-5">
+          <div class="prediction-bar-container">
+            <div class="prediction-bar"></div>
+          </div>
+          <div class="prediction-number">&#128566;</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
